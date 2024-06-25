@@ -7,5 +7,5 @@ Este projeto é um chatbot avançado implementado em Python, usando técnicas de
 1. **Clonar o Repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/chatbot-nlp.git
+   git clone https://github.com/devjjean/chatbot-nlp.git
    cd chatbot-nlp
