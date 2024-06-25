@@ -52,7 +52,7 @@ function getBotResponse(userInput) {
         'qual é a capital do Brasil?': 'A capital do Brasil é Brasília.',
         'quem é o presidente do Brasil?': 'O presidente do Brasil é Luiz Inácio Lula da Silva, desde 1º de janeiro de 2023.',
         'qual é a raiz quadrada de 16?': 'A raiz quadrada de 16 é 4.',
-        'me conte uma piada': 'Por que o livro de matemática se suicidou? Porque tinha muitos problemas!'
+        'ME CONTE UMA PIADA': 'Por que o livro de matemática se suicidou? Porque tinha muitos problemas!'
     };
 
     // Convertendo a entrada do usuário para minúsculas e removendo espaços extras
