@@ -20,10 +20,22 @@ function sendMessage() {
 }
 
 function appendMessage(message, sender) {
+    const messageContainer = document.createElement('div');
+    messageContainer.classList.add('message-container', sender);
+
+    if (sender === 'bot') {
+        const avatar = document.createElement('div');
+        avatar.classList.add('avatar');
+        avatar.textContent = '🤖';
+        messageContainer.appendChild(avatar);
+    }
+
     const messageElement = document.createElement('div');
-    messageElement.classList.add('message', sender);
+    messageElement.classList.add('message');
     messageElement.textContent = message;
-    document.getElementById('chat-box').appendChild(messageElement);
+    messageContainer.appendChild(messageElement);
+
+    document.getElementById('chat-box').appendChild(messageContainer);
     document.getElementById('chat-box').scrollTop = document.getElementById('chat-box').scrollHeight;
 }
 
